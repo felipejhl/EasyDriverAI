@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA22F421-38DD-3AD8-4EE0-79A1AD449BAC" name="T_PAGAMENTOS">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>8C3F5678-0908-F17B-2B33-2CEA2C7726D4</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_pagamentos" id="0EDFDC02-6DC4-2750-D72C-3350141C62FC">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>0178B8C1-B24A-E8A5-4E9B-293A31E8859E</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_reserva" id="4BEF9B97-8108-DCFE-9936-8BE99953B135">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>24757906-40EA-2E56-0BED-4592BCB2F7CE</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_cliente" id="F9FC82DB-C1DE-B27F-3B83-9E3CE47627F2">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>03D88F46-EB34-B72A-2BFE-081D60DEFC24</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_pagamento" id="2456BE12-ED14-B42C-2D19-12A3014E5B5C">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>CCA4DAA7-D950-C85E-6ABE-BEA847AF9528</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_pagamento" id="CB261561-8501-E959-FEB0-4B02432F11A2">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>728A169F-7430-49B2-D119-B4C2A3A8D612</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_metodo_pagamento" id="7212B742-011A-242D-311A-0A13101D790C">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>8CAF74CF-CBB8-F939-5B61-EAF96DB9C218</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_status" id="1418A1BC-EFED-4546-90AB-4A78EB6A62A0">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>FAC7B150-6ADF-39FC-1D16-A2B66DA45169</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_ID_cliente" id="38B9A840-AA89-306F-9A9D-E7A2077941EA">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>A5E1EFC6-8E55-93BD-6E33-BAC0B0232D99</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A109B511-8ED2-238D-DE83-98C3712F8861" referredColumn="FE38DDC6-68B0-B439-0865-C95686B04949"/>
+</associations>
+</Column>
+<Column name="TAB_IA_TAB_IA_ID" id="BAE911A5-7761-E68B-2E82-91467CD7030C">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ia" id="161400DA-606B-4C96-18BA-279CF27AA929">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 16:17:58 UTC</createdTime>
+<generatorID>8C965DCE-F781-FB5B-A075-0791D9B44BE6</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6585E90-AC21-4E7F-FD1D-10172EB4D791" referredColumn="59EF90F4-C315-DF2A-B3CB-CC4A140DE5F9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B06BF03A-BFF2-8E99-D5CA-FF7BDD192AFF" name="TAB_PAGAMENTOS_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>970C820B-CDD5-03B2-E612-BC5A2AE97774</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EDFDC02-6DC4-2750-D72C-3350141C62FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F05AD95-FA81-9D11-77B4-06012F9474BD" name="T_PAGAMENTOS_T_IA_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>A2CD212E-94A7-67C5-19E5-23AB359765AA</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="161400DA-606B-4C96-18BA-279CF27AA929"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="481664E7-5694-A59F-AE43-4CD32D614E57" name="T_PAGAMENTOS_T_USUARIO_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>516CF9AC-5A37-2072-1D09-13E993D615CC</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38B9A840-AA89-306F-9A9D-E7A2077941EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBB24A40-8A8A-B74A-B0D8-AF851B7E5DF3" name="T_RESERVAS">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>5A50AA04-31AC-960D-95C5-8815CFFD4238</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_reserva" id="D410DDFA-C37C-9492-F727-4982987B1C91">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>2411D3E0-6BDA-D89D-C8CB-C8338591CFAF</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_cliente" id="77B56567-F67B-C9F8-0F7D-BC64A21AFFE4">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>DEFB0981-E904-9ACF-2E79-B7EA3A2CAFC3</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio" id="58A29377-E91C-151B-31F8-83D7C8A00365">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>4DA974BA-7720-AA35-1C34-002702B2188C</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_termino" id="2A7F8AB1-ACA3-F13B-D041-66DADB1EE845">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>35A6BE49-D5F1-A3C0-8622-AA0B1A743B1A</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_carro" id="40533768-5CFC-F76F-2250-A0AC94F3AFDB">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>D6F0EBFE-05C8-28B3-C312-599129F3A0C5</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_precoTotal" id="86903C89-B2B5-8CBE-6BAB-468D8A272362">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>903E16DC-568D-6706-C8F0-00F53A247635</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_statusReserva" id="A0946B6B-449E-21A6-471A-EBED111CD558">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>2382DCD4-6E5D-F39B-B58F-CA722A402B81</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAB_IA_TAB_IA_ID" id="DC9AADB8-AE13-544F-273E-F439D19A302F">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ia" id="4BA46F61-462A-56D2-305F-C89716100D4B">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 16:17:58 UTC</createdTime>
+<generatorID>581922DF-BDAF-4002-28C6-3A30C083285E</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="060E24E9-188A-5AC1-2950-1E27D29D6E24" referredColumn="59EF90F4-C315-DF2A-B3CB-CC4A140DE5F9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F57C0869-1701-3400-F221-13FE584433DA" name="TAB_RESERVAS_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>C195C970-9D84-6CB5-E7DB-B15479ACECB0</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D410DDFA-C37C-9492-F727-4982987B1C91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47A5D970-A43D-0537-D880-FE1540ED1D56" name="T_RESERVAS_T_IA_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>F0F796C3-9880-E275-FF11-AA8529F3E481</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BA46F61-462A-56D2-305F-C89716100D4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

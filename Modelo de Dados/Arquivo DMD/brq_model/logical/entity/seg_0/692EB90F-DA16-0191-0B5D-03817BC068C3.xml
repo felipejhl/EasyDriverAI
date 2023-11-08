@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="692EB90F-DA16-0191-0B5D-03817BC068C3" name="T_ENDERECO">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:02:15 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_endereco" id="DE14446D-4996-85AF-A3D4-AEAA9A6935AA">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:02:35 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="DBAC1544-2932-1A09-2537-B21FFC3FA73E">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:02:48 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="4B1E0768-A1F5-F4E5-FB7B-91BBC4E55551">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:04:29 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_logradouro" id="C67A581F-ADE9-8A2C-4B1D-8F9CF13486AE">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:04:36 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cep" id="EFBE568F-57A7-90D2-B251-08731E106FBF">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:05:03 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID cliente" id="0B22998E-50BB-480E-1E5F-26F75F3087DF">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:34:12 UTC</createdTime>
+<generatorID>0A246904-7874-4B66-2136-64FC84649501</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<referedAttribute>65A15EC2-4F87-6730-6AA9-550151A60664</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID empresa" id="E5953543-0BF5-2C3B-54B1-BD7C3FDE6F21">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:45:10 UTC</createdTime>
+<generatorID>94BF8CA6-459F-734B-A87D-680502E76BC8</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<referedAttribute>74BA205D-967B-98D5-8440-885B193A4794</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

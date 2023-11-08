@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E80B1E41-FB90-5675-BAF4-7DAE7DA9BADC" name="T_TELEFONE">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:05:48 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_telefone" id="024DED4B-E508-2203-68BA-EB8200FE4A9E">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:06:00 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_tipo" id="11F31A74-4468-5A74-AD40-E7E40B28A598">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:06:11 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_numero" id="82C3431E-C564-6212-0987-71FE9E19B9B7">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:06:17 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID cliente" id="23DA9F9E-5183-2E45-3267-D7D2408AA285">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:33:09 UTC</createdTime>
+<generatorID>053865CA-FCA3-2C23-85A4-93B187C08A84</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<referedAttribute>65A15EC2-4F87-6730-6AA9-550151A60664</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID empresa" id="956C5626-4E4E-97C4-0E8B-915693A039BE">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:45:48 UTC</createdTime>
+<generatorID>BEA99AA6-78FD-41F6-2016-AF19A3D3725B</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<referedAttribute>74BA205D-967B-98D5-8440-885B193A4794</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="90DF797B-C51D-D53E-1E1B-D30F86B028CF" name="nr_telefone PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 15:46:34 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>024DED4B-E508-2203-68BA-EB8200FE4A9E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

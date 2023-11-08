@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC0F11ED-9F16-56F5-E46D-749A0841C4D7" name="T_EMPRESA">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>D6CBB2B8-6FBB-162D-0188-F9A394E87651</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_empresa" id="08FABF66-C87F-5979-99ED-1709F28C5ACA">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>74BA205D-967B-98D5-8440-885B193A4794</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_da_empresa" id="8D0337AA-345F-1133-925B-E9EE7B03153F">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>416A0E27-7732-97E7-0A2A-4F1D4FB319DA</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="5A8A577F-7F73-8578-F824-AD9A5489EEE4">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>797D55C9-D1DD-7806-FB17-963FFA1D6996</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_comercial" id="D480A3DC-DA87-ACA0-34E1-2AF57B3DDB67">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>293C0DCB-937D-E956-FDF3-BE8E6E1E6CD3</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_contato_empresa" id="70DA6E78-C56E-FD3E-334B-E4694A929D43">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>89C897B4-278A-9BC8-E93E-18F95B493347</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_de_contato_empresa" id="DBF5C803-AD08-21A4-2F04-B915DE48D077">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>57766A5E-CF4B-24FA-BF7A-4C70C3E6C827</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_e-mail" id="EB766D7B-0E02-ACDB-1A10-2516C7BC22D6">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>7E21DD70-00D0-EF35-CFCB-9BC18BBFE33E</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DC97D33-5997-7748-3D73-826008C9AFCA" name="TAB_EMPRESAS_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>E40CC27C-F3A8-4EF3-5E4D-B2A8716A7D23</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08FABF66-C87F-5979-99ED-1709F28C5ACA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

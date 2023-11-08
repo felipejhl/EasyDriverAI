@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A50AA04-31AC-960D-95C5-8815CFFD4238" name="T_RESERVAS">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:22:25 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_reserva" id="2411D3E0-6BDA-D89D-C8CB-C8338591CFAF">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:22:58 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="4DA974BA-7720-AA35-1C34-002702B2188C">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:24:21 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="35A6BE49-D5F1-A3C0-8622-AA0B1A743B1A">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:24:36 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_precoTotal" id="903E16DC-568D-6706-C8F0-00F53A247635">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:26:58 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_statusReserva" id="2382DCD4-6E5D-F39B-B58F-CA722A402B81">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:27:25 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ia" id="581922DF-BDAF-4002-28C6-3A30C083285E">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 16:17:52 UTC</createdTime>
+<generatorID>F0F796C3-9880-E275-FF11-AA8529F3E481</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<referedAttribute>852B210A-E13D-65F2-D2C5-0B10A28CCE6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C195C970-9D84-6CB5-E7DB-B15479ACECB0" name="TAB_RESERVAS_PK">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:23:20 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2411D3E0-6BDA-D89D-C8CB-C8338591CFAF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

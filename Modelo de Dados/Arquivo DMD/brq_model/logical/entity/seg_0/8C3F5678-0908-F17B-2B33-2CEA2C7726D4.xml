@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C3F5678-0908-F17B-2B33-2CEA2C7726D4" name="T_PAGAMENTOS">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:28:17 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID pagamentos" id="0178B8C1-B24A-E8A5-4E9B-293A31E8859E">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:29:25 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_pagamento" id="CCA4DAA7-D950-C85E-6ABE-BEA847AF9528">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:40:43 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_pagamento" id="728A169F-7430-49B2-D119-B4C2A3A8D612">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:41:07 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_metodo_pagamento" id="8CAF74CF-CBB8-F939-5B61-EAF96DB9C218">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:41:42 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_status" id="FAC7B150-6ADF-39FC-1D16-A2B66DA45169">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:20:49 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID cliente" id="A5E1EFC6-8E55-93BD-6E33-BAC0B0232D99">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:54:01 UTC</createdTime>
+<generatorID>516CF9AC-5A37-2072-1D09-13E993D615CC</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<referedAttribute>65A15EC2-4F87-6730-6AA9-550151A60664</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ia" id="8C965DCE-F781-FB5B-A075-0791D9B44BE6">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 16:17:52 UTC</createdTime>
+<generatorID>A2CD212E-94A7-67C5-19E5-23AB359765AA</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<referedAttribute>852B210A-E13D-65F2-D2C5-0B10A28CCE6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="970C820B-CDD5-03B2-E612-BC5A2AE97774" name="TAB_PAGAMENTOS_PK">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:29:44 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0178B8C1-B24A-E8A5-4E9B-293A31E8859E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

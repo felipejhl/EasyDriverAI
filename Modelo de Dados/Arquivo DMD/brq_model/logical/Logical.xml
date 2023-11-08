@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="04DCFC7C-A9CE-1FFF-63E2-1D60B5E47F2F" mainViewID="0D5B98C0-7D62-B692-7933-811C7E645192">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:09:40 UTC</createdTime>
+<ownerDesignName>BRQ_Model_de_dados</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

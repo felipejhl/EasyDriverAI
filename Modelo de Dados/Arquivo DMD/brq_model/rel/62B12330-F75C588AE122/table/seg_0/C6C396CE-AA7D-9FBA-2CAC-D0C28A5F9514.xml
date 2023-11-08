@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6C396CE-AA7D-9FBA-2CAC-D0C28A5F9514" name="T_CNPJ">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>90770E12-91A7-84BC-7ECE-EC74DE63A069</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_cnpj" id="E46CDA1C-3423-6D17-F857-0E27B44B1D69">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>5FE12967-0CDB-23D5-2640-A4D2D5C0F9DA</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_empresa" id="E9005888-C75C-0BA4-8D80-A8C5126F592C">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>4C56DD4A-83FE-F7A9-3F43-FE7E15D529CD</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_EMPRESA_ID_empresa" id="EA8EF64D-CF46-437B-F2E0-3E44084200F2">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>159040BC-448C-7201-ABF6-05D6FC93DA64</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B0F18C4-69D8-BED8-FD5B-F1DDEB443D3E" referredColumn="08FABF66-C87F-5979-99ED-1709F28C5ACA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="397E155B-0794-E760-1D3B-0CE9208902E4" name="cnpj_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 16:17:58 UTC</createdTime>
+<generatorID>B591CEE3-ED4F-7B75-4BA2-3632AD0CBB9E</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E46CDA1C-3423-6D17-F857-0E27B44B1D69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B33C20CB-83EA-1DA1-B18D-5BC549CCCCC6" name="cnpj__IDX">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3AE0AA6D-4646-D314-AFEE-0822278F99C9</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EA8EF64D-CF46-437B-F2E0-3E44084200F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8773E190-4A54-8B5E-B660-87934968E4A9" name="T_CNPJ_T_EMPRESA_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>3AE0AA6D-4646-D314-AFEE-0822278F99C9</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA8EF64D-CF46-437B-F2E0-3E44084200F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

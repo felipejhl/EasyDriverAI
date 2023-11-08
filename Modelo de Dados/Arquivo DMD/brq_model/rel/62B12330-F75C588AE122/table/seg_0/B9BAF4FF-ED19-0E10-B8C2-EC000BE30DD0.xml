@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9BAF4FF-ED19-0E10-B8C2-EC000BE30DD0" name="T_ADM">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>FC344418-3067-502D-E1DA-4E3D4C6F3E64</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_adm" id="B5698F43-7027-65E5-7ACA-4A4189A9D655">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>2D7ECEF7-D9BF-1F83-F927-81A2640B6E5C</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="FB53B3BF-21CA-4B8B-2815-B5B104999353">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>FCDAD028-4CCC-2852-2CDF-0F4DACE4934F</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereço" id="4A1CB5C2-B0A1-E0FA-C394-D06CC41A0345">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>6A28D9DB-3FDB-2F08-DBF8-1121222F8EF4</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_telefone" id="D6AC1F8F-B74A-C83A-AAA1-7FDED5778B4A">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>5DDAE432-8372-A755-0769-C41E0A5BEADF</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cargo" id="BD46BB33-7482-1E82-9177-39FB81082171">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>14FE6AC2-1A87-47A5-7D2E-CDD82FB02B47</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario" id="802D3F66-82C6-C08D-9A8E-00C9C2673DA5">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>15BFE808-D530-4528-C423-10F9079D7B45</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_funcao" id="D24497B1-926A-240E-A410-56362C0E56C9">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>D0CCDAF5-8264-6BFF-7240-1E6EABAD8DE1</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_ID_cliente" id="C005FAEB-5046-6BB4-6F43-7C07AB66ABA9">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>3478B3CE-DF7D-E3D1-40A0-530A773C7129</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A6EBCFF-87E4-5883-3AE0-CBCB5F58E074" referredColumn="FE38DDC6-68B0-B439-0865-C95686B04949"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="797BC3E0-A28E-CA74-7304-AC54FF1037CC" name="TAB_FUNCIONARIOS_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-28 23:31:43 UTC</createdTime>
+<generatorID>3D2B5C71-26C4-CE7D-5D24-34AE87CEBA26</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5698F43-7027-65E5-7ACA-4A4189A9D655"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE118B33-86C3-D7D5-7EEA-6968A1893513" name="T_ADM_T_USUARIO_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>8A94DD15-C982-D89E-95C3-9A3F62FD9FB4</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C005FAEB-5046-6BB4-6F43-7C07AB66ABA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

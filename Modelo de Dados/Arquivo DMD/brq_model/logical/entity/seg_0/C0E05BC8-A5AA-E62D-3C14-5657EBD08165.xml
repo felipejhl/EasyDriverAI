@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0E05BC8-A5AA-E62D-3C14-5657EBD08165" name="T_USUARIO">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:10:29 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID cliente" id="65A15EC2-4F87-6730-6AA9-550151A60664">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:12:05 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_nome" id="B2CEB0D1-76CA-D155-0992-DB2BA19EFF87">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:13:35 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_e-mail" id="F673249A-554B-24E1-3002-4294EC488E0E">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:01:21 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_cnh" id="37DC3E4C-E209-C498-EC2B-82F66BC3EAEE">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 15:58:59 UTC</createdTime>
+<generatorID>0D6432A1-051D-2EFD-98EA-9CD444CEFFEE</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<referedAttribute>C1340246-E3EB-6FB5-CBFD-26A6D0CB8547</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ia" id="294D3581-5B46-7F10-918B-E40176B06355">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 16:17:52 UTC</createdTime>
+<generatorID>86651AFD-8E3F-441F-FE5E-30B062B82E97</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<referedAttribute>852B210A-E13D-65F2-D2C5-0B10A28CCE6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4C7713D-3C52-D2C9-5FF1-8805C5FFC422" name="TAB_PESSOAS_FISICAS_PK">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:13:12 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65A15EC2-4F87-6730-6AA9-550151A60664</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

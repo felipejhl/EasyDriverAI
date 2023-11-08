@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90770E12-91A7-84BC-7ECE-EC74DE63A069" name="T_CNPJ">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:12:05 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_cnpj" id="5FE12967-0CDB-23D5-2640-A4D2D5C0F9DA">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:12:24 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_empresa" id="4C56DD4A-83FE-F7A9-3F43-FE7E15D529CD">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:12:13 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID empresa" id="159040BC-448C-7201-ABF6-05D6FC93DA64">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:36:04 UTC</createdTime>
+<generatorID>3AE0AA6D-4646-D314-AFEE-0822278F99C9</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<referedAttribute>74BA205D-967B-98D5-8440-885B193A4794</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B591CEE3-ED4F-7B75-4BA2-3632AD0CBB9E" name="cnpj PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 16:06:54 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5FE12967-0CDB-23D5-2640-A4D2D5C0F9DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

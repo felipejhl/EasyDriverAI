@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC344418-3067-502D-E1DA-4E3D4C6F3E64" name="T_ADM">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:43:35 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID adm" id="2D7ECEF7-D9BF-1F83-F927-81A2640B6E5C">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:44:14 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcao" id="D0CCDAF5-8264-6BFF-7240-1E6EABAD8DE1">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:24:29 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID cliente" id="3478B3CE-DF7D-E3D1-40A0-530A773C7129">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:35:42 UTC</createdTime>
+<generatorID>8A94DD15-C982-D89E-95C3-9A3F62FD9FB4</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="true"/>
+</engineerTo>
+<referedAttribute>65A15EC2-4F87-6730-6AA9-550151A60664</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D2B5C71-26C4-CE7D-5D24-34AE87CEBA26" name="TAB_FUNCIONARIOS_PK">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:44:38 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="62B12330-BB77-ECE7-3968-F75C588AE122" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D7ECEF7-D9BF-1F83-F927-81A2640B6E5C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

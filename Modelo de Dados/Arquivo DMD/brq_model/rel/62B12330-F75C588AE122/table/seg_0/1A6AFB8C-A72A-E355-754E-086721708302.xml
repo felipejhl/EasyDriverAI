@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A6AFB8C-A72A-E355-754E-086721708302" name="T_WIB">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-10-01 01:30:43 UTC</createdTime>
+<generatorID>51AF83DA-923F-E75D-0AB8-F0E872C8EBB1</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_wibprevend" id="6632F20B-2772-C2FE-9DA9-49BF3B8FA8B6">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-10-01 01:30:43 UTC</createdTime>
+<generatorID>A8BAE0E0-619A-D410-0DF2-A2EBBF2A3130</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_wib(ia)" id="DCBF0300-0AF1-8A42-134A-AE42BA370A8A">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-10-01 01:30:43 UTC</createdTime>
+<generatorID>0CBFA3BB-DBE7-8364-E941-68AB79BCB5DB</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000</dataTypeSize>
+<ownDataTypeParameters>10000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_scan" id="49FD53B1-8CF9-B83A-0B50-BB334D159FFB">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-10-01 01:30:43 UTC</createdTime>
+<generatorID>42B60F5A-450D-BB6E-C0E0-AE35EB604863</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_historico" id="CE302F79-9B94-5E7A-D67A-3BFB10622414">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-10-01 01:30:43 UTC</createdTime>
+<generatorID>4376406D-5E99-2ACD-4009-37AFD4468693</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_baseDados" id="8976C2FD-31A2-A7D2-F1D7-373FC7B6F1A2">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-10-01 01:30:43 UTC</createdTime>
+<generatorID>CC5F19CB-7BCE-BBED-0317-8B77235F1CCA</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_relatorio" id="45AA92DC-CD3F-EA2F-3054-0E4D99E972E8">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-10-01 01:30:43 UTC</createdTime>
+<generatorID>36AB14C3-DF63-CB59-9453-4E58914DA2F6</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000</dataTypeSize>
+<ownDataTypeParameters>10000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7755FE36-6853-6002-5D49-70EB38038A21" name="T_WIB_PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-10-01 01:30:43 UTC</createdTime>
+<generatorID>5F76D449-83CA-17B4-B82F-5C8AC1FACFA3</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6632F20B-2772-C2FE-9DA9-49BF3B8FA8B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

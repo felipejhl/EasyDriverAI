@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="94207EFE-0B93-4FDE-6F2F-093A93EF8485" containerWithKeyObject="A2A56BA5-4F0D-6BBF-8EFC-C0BA68DB07E2" localFKIndex="E780D7A3-E99A-F71A-E8E5-4513B266811E" name="T_VEICULOS_T_IA_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>48B82E23-5BE1-FD07-1287-3FD164A3D023</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<referredTableLongName>T_IA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>436722A9-E718-95FE-FC46-D3EB0EA895EC</referredTableID>
+<keyObject>C8A5A9F6-4EFB-055A-B16D-D5514F28923A</keyObject>
+<referredKeyID>C8A5A9F6-4EFB-055A-B16D-D5514F28923A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TAB_IA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

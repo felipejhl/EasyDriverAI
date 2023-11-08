@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FAE8E2A-CB53-8623-7DB6-2C8883F0C6B7" name="T_ENDERECO">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>692EB90F-DA16-0191-0B5D-03817BC068C3</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_endereco" id="8B1296BA-ED30-49C1-3C37-669EBAC06FAC">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>DE14446D-4996-85AF-A3D4-AEAA9A6935AA</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="7257CC58-574F-9854-93DD-2DD50A50D04D">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>DBAC1544-2932-1A09-2537-B21FFC3FA73E</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="CBD56A38-52DB-7261-70A6-44B4E5FC9E2E">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>4B1E0768-A1F5-F4E5-FB7B-91BBC4E55551</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_logradouro" id="A1294EC0-6C15-D2C2-F629-A253863DF78F">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>C67A581F-ADE9-8A2C-4B1D-8F9CF13486AE</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_cep" id="6B165091-89E8-CDA0-E45B-D55E08D59429">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>EFBE568F-57A7-90D2-B251-08731E106FBF</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_ID_cliente" id="72B3C24F-0561-60AF-3A5A-BB0391162987">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>0B22998E-50BB-480E-1E5F-26F75F3087DF</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57ACA86E-239C-2353-EB88-41C01E53CD36" referredColumn="FE38DDC6-68B0-B439-0865-C95686B04949"/>
+</associations>
+</Column>
+<Column name="T_EMPRESA_ID_empresa" id="4226BCC4-2C18-8F4F-6A49-8E662CAEC2CF">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>E5953543-0BF5-2C3B-54B1-BD7C3FDE6F21</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB1158A3-067B-267D-14E1-B851CB274723" referredColumn="08FABF66-C87F-5979-99ED-1709F28C5ACA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="436428A5-ECC8-2EFB-7F7D-11F8BFCE81D1" name="TAB_ENDERECO__IDX">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>94BF8CA6-459F-734B-A87D-680502E76BC8</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4226BCC4-2C18-8F4F-6A49-8E662CAEC2CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D29A1C2-E80B-F5AC-ECE9-790055FFA1D9" name="TAB_ENDERECO__IDXv1">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<ownerDesignName>brq_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0A246904-7874-4B66-2136-64FC84649501</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="72B3C24F-0561-60AF-3A5A-BB0391162987"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A179AD8B-B66D-8CFE-1897-325D403327E2" name="T_ENDERECO_T_EMPRESA_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>94BF8CA6-459F-734B-A87D-680502E76BC8</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4226BCC4-2C18-8F4F-6A49-8E662CAEC2CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A7B3829-64BC-7270-63A4-4FDE6B8C7468" name="T_ENDERECO_T_USUARIO_FK">
+<createdBy>Pichau</createdBy>
+<createdTime>2023-09-29 00:56:37 UTC</createdTime>
+<generatorID>0A246904-7874-4B66-2136-64FC84649501</generatorID>
+<ownerDesignName>brq_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72B3C24F-0561-60AF-3A5A-BB0391162987"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

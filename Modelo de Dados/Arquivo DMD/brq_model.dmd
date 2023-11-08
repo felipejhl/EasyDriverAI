@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="brq_model" id="F240371A-A61B-D1E8-CDDC-5186B2298D48" version="3.5">
+<createdBy>SYSTEM</createdBy>
+<createdTime>2023-09-28 00:09:40 UTC</createdTime>
+<ownerDesignName>BRQ_Model_de_dados</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F240371A-A61B-D1E8-CDDC-5186B2298D48</designId>
+</OSDM_Design>

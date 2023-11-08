@@ -1,0 +1,19 @@
+/* DEFINIÇÃO DE VARIÁVEIS DE CORES */
+
+:root {
+    --color-azul: #0058AA;
+    --color-lightblue: #9ebcff;
+    --color-light: #fff;
+    --color-white: #f2f2f2;
+    --color-dark: #000;
+    --color-verde: #08dcc4;
+    --color-darkazul: #00203d;
+    --color-darkazul2: #38445c;
+    --color-fade:#E0E0E0;
+
+    --color-neutral-0: #0c0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-40: #f5f5f5;
+
+
+}
